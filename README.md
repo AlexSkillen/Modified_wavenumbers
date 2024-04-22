@@ -1,1 +1,3 @@
-# Modified_wavenumbers
+# Spectral Differentiation with modified wavenumbers; a pedigogical example
+
+This is a simple pedegogical example for spectral differentiation using modified wavenumbers to enforce consistency with a finite difference approximation. This is useful, for example, in Computational Fluid Dynamics, of Magnetohydrodynamics. To solve a Poisson Equation using a spectral solver is far faster than using traditional iterative solvers (but is limited to simple geometries). The example includes the use of cosine / sine  transforms, which can be useful in the case of inforcing e.g. homogeneous Neumann boundary conditions.
